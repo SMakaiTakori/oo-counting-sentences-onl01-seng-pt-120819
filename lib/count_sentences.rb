@@ -18,8 +18,8 @@ class String
     string = self.squeeze(".")
     string = self.squeeze("!")
     
+    # used regex to carry out the split and count methods
     
-    used regex to carry out the split and count steps
     string.split(/[$.|?|!]/).count
   end
 end
